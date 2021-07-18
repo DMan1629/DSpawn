@@ -1,0 +1,13 @@
+name: DSpawn
+main: me.DMan16.DSpawn.DSpawnMain
+version: 1.0
+description: Despawn dropped stuff properly
+author: DMan16
+
+commands:
+  DSpawn:
+    aliases: [dsp]
+    permission: dspawn.command
+permissions:
+  dspawn.command:
+    default: op

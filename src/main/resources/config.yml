@@ -1,0 +1,30 @@
+# DSpawn config file
+# Purges during Disable options are NOT dependant on the purges during running options!
+
+# What to remove while the plugin is running
+purge-running:
+  # All dropped items
+  items: true
+  # All kinds of Arrows
+  arrows: true
+  # All Tridents
+  tridents: true
+  # Should Tridents that were thrown by Players be avoided during the purging
+  # Tridents thrown by Players will be removed during the purging only if this option is set to 'false' and the above option is set to 'true'
+  ignore-player-tridents: false
+
+# What to remove when the plugin disables
+purge-disable:
+  # All dropped items
+  items: true
+  # All kinds of Arrows
+  arrows: true
+  # All Tridents
+  tridents: true
+  # Should Tridents that were thrown by Players be avoided during the purging
+  # Tridents thrown by Players will be removed during the purging only if this option is set to 'false' and the above option is set to 'true'
+  ignore-player-tridents: false
+
+# The message sent when reloading the config with the command
+# To use colors (if supported) use '&' before the appropriate color character
+command-reload-message: "&aConfig reloaded!"
